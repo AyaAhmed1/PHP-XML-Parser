@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+serverName      xml.local
+serverAlias     xml.local
+DocumentRoot    /home/aya/xml_php
+<directory "/home/aya/xml_php">
+  Require all granted
+  AllowOverride All
+  Allow from All
+</directory>
+</VirtualHost>
+
